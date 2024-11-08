@@ -1,0 +1,696 @@
+/*banner区域*/
+.banner {
+    height: 500px;
+    background-color: #f5f5f5;
+}
+
+.banner .wrapper {
+    background-image: url(../img/uploads/banner1.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner .wrapper .banner_left {
+    width: 290px;
+    height: 500px;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.banner .wrapper .banner_left ul li {
+    height: 50px;
+    width: 100%;
+    padding-left: 30px;
+    line-height: 50px;
+    list-style: none;  
+}
+
+.banner .banner_left ul li:hover {
+    background-color: #00BE9A;
+}
+
+.banner .banner_left ul li a {
+    margin-right: 5px;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 0;
+}
+
+.banner .banner_left ul li a:nth-child(1) {
+    font-size: 16px;
+    margin-right: 14px;
+}
+
+.banner .banner_left ul li .iconfont {
+    margin-left: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+
+/*新鲜好物*/
+.title {
+    height: 110px;
+    line-height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title .left {
+    display: flex;
+}
+
+.title .left h3 {
+    font-size: 30px;
+    margin-right: 36px;
+}
+
+.title .left p {
+    font-size: 16px;
+    color: #A1A1A1;
+}
+
+.title .right a {
+    font-size: 16px;
+    color: #A1A1A1;
+    margin-right: 10px;
+}
+
+.title .right a .iconfont {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.goods .content_items {
+    height: 400px;
+}
+
+.goods .content_items ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.goods .content_items ul li {
+    height: 400px;
+    width: 304px;
+    background-color: #EEF9F4;
+}
+
+.goods .content_items ul li a .pic {
+    width: 304px;
+    height: 304px;
+}
+
+.goods .content_items ul li a img {
+    width: 100%;
+    height: 100%;
+}
+
+.goods .content_items ul li .text {
+    text-align: center;
+}
+
+.goods .content_items ul li .text h6 {
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.goods .content_items ul li .text p {
+    font-size: 18px;
+    color: #AA2112;
+}
+
+.goods .content_items ul li .text span {
+    font-size: 22px;
+    color: #AA2112;
+}
+
+
+/*人气推荐 */
+.recommend .title {
+    height: 110px;
+    line-height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommend .title .left {
+    display: flex;
+}
+
+.recommend .title .left h3 {
+    font-size: 30px;
+    margin-right: 36px;
+}
+
+.recommend .title .left p {
+    font-size: 16px;
+    color: #A1A1A1;
+    
+}
+
+.recommend .recommend_items {
+    height: 400px;
+}
+
+.recommend .recommend_items ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommend .recommend_items ul li {
+    height: 400px;
+    width: 304px;
+    
+}
+
+.recommend .recommend_items ul li a .pic {
+    width: 304px;
+    height: 305px;
+}
+
+.recommend .recommend_items ul li a img {
+    width: 100%;
+    height: 100%;
+}
+
+.recommend .recommend_items ul li .text {
+    text-align: center;
+}
+
+.recommend .recommend_items ul li .text h6 {
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: #333333;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.recommend .recommend_items ul li .text p {
+    font-size: 16px;
+    color: #A1A1A1;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+/* 热门品牌 */
+.hot {
+    background-color: #f5f5f5;
+}
+.hot .title {
+    height: 110px;
+    line-height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot .title .left {
+    display: flex;
+}
+
+.hot .title .left h3 {
+    font-size: 30px;
+    margin-right: 36px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.hot .title .left p {
+    font-size: 16px;
+    color: #A1A1A1;
+    font-weight: 400;
+}
+
+.hot .title .right a {
+    font-size: 16px;
+    color: #A1A1A1;
+    margin-right: 10px;
+}
+
+.hot .title .right a .iconfont {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.hot .hot_items {
+    height: 358px;
+}
+
+.hot .hot_items ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot .hot_items ul li {
+    height: 400px;
+    width: 304px;
+    margin-right: 5px;
+}
+
+.hot .hot_items ul li a .pic {
+    width: 244px;
+    height: 306px;
+}
+
+.hot .hot_items ul li a img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 生鲜 */
+
+.fresh .title {
+    height: 110px;
+    line-height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fresh .title .left {
+    display: flex;
+}
+
+.fresh .title .left h3 {
+    font-size: 30px;
+    margin-right: 36px;
+}
+
+.fresh .title .right ul {
+    display: flex;
+    align-items: center;
+}
+
+.fresh .title .right ul li {
+    margin-right: 10px;
+}
+
+.fresh .title .right ul li a {
+    font-size: 16px;
+    color: #333333;
+    padding: 0 4px;
+    font-weight: 400;
+}
+
+.fresh .title .right ul li:hover a {
+    background-color: #00BE9A;
+    color: #FFFFFF;
+    border-radius: 2px;
+}
+
+.fresh .title .right ul p {
+    font-size: 16px;
+    color: #A1A1A1;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+.fresh .title .right ul p .iconfont {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.fresh .fresh_items {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    height: 610px;
+}
+
+.fresh .fresh_items .left {
+    height: 610px;
+    width: 260px;
+    padding-right: 10px;
+}
+
+.fresh .fresh_items .left img {
+    height: 610px;
+    width: 248px;
+}
+
+.fresh .fresh_items .right {
+    height: 610px;
+}
+
+.fresh .fresh_items .right ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fresh .fresh_items .right ul li {
+    width: 242px;
+    height: 280px;
+    list-style: none;
+    margin-bottom: 20px; 
+}
+
+.fresh .fresh_items .right ul li a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.fresh .fresh_items .right ul li a img {
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    padding: 10px 12px 0px 12px;
+    margin: 0px auto;
+    display: block;
+}
+
+.fresh .fresh_items .right ul li a h5 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333333;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+.fresh .fresh_items .right ul li a p {
+    color: #AF2F22;
+    font-size: 22px;
+    margin-top: 10px;
+    line-height: 31px;
+    font-weight: 400;
+}
+
+.fresh .fresh_items .right ul li a p span {
+    font-size: 18px;
+    color: #AF2F22;
+}
+
+
+/* 服饰 */
+.clothes .title {
+    height: 110px;
+    line-height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clothes .title .left {
+    display: flex;
+}
+
+.clothes .title .left h3 {
+    font-size: 30px;
+    margin-right: 36px;
+}
+
+.clothes .title .right ul {
+    display: flex;
+    align-items: center;
+}
+
+.clothes .title .right ul li {
+    margin-right: 10px;
+}
+
+.clothes .title .right ul li a {
+    font-size: 16px;
+    color: #333333;
+    padding: 0 4px;
+    font-weight: 400;
+}
+
+.clothes .title .right ul li:hover a {
+    background-color: #00BE9A;
+    color: #FFFFFF;
+    border-radius: 2px;
+}
+
+.clothes .title .right ul p {
+    font-size: 16px;
+    color: #A1A1A1;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+.clothes .title .right ul p .iconfont {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.clothes .clothes_items {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    height: 610px;
+}
+
+.clothes .clothes_items .left {
+    height: 610px;
+    width: 260px;
+    padding-right: 10px;
+}
+
+.clothes .clothes_items .left img {
+    height: 610px;
+    width: 248px;
+}
+
+.clothes .clothes_items .right {
+    height: 610px;
+}
+
+.clothes .clothes_items .right ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.clothes .clothes_items .right ul li {
+    width: 242px;
+    height: 280px;
+    list-style: none;
+    margin-bottom: 20px; 
+}
+
+.clothes .clothes_items .right ul li a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.clothes .clothes_items .right ul li a img {
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    padding: 10px 12px 0px 12px;
+    margin: 0px auto;
+    display: block;
+}
+
+.clothes .clothes_items .right ul li a h5 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333333;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+.clothes .clothes_items .right ul li a p {
+    color: #AF2F22;
+    font-size: 22px;
+    margin-top: 10px;
+    line-height: 31px;
+    font-weight: 400;
+}
+
+.clothes .clothes_items .right ul li a p span {
+    font-size: 18px;
+    color: #AF2F22;
+}
+
+
+/* 餐厨 */
+.kitchen .title {
+    height: 110px;
+    line-height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kitchen .title .left {
+    display: flex;
+}
+
+.kitchen .title .left h3 {
+    font-size: 30px;
+    margin-right: 36px;
+}
+
+.kitchen .title .right ul {
+    display: flex;
+    align-items: center;
+}
+
+.kitchen .title .right ul li {
+    margin-right: 10px;
+}
+
+.kitchen .title .right ul li a {
+    font-size: 16px;
+    color: #333333;
+    padding: 0 4px;
+    font-weight: 400;
+}
+
+.kitchen .title .right ul li:hover a {
+    background-color: #00BE9A;
+    color: #FFFFFF;
+    border-radius: 2px;
+}
+
+.kitchen .title .right ul p {
+    font-size: 16px;
+    color: #A1A1A1;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+.kitchen .title .right ul p .iconfont {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.kitchen .kitchen_items {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    height: 610px;
+}
+
+.kitchen .kitchen_items .left {
+    height: 610px;
+    width: 260px;
+    padding-right: 10px;
+}
+
+.kitchen .kitchen_items .left img {
+    height: 610px;
+    width: 248px;
+}
+
+.kitchen .kitchen_items .right {
+    height: 610px;
+}
+
+.kitchen .kitchen_items .right ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.kitchen .kitchen_items .right ul li {
+    width: 242px;
+    height: 280px;
+    list-style: none;
+    margin-bottom: 20px; 
+}
+
+.kitchen .kitchen_items .right ul li a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.kitchen .kitchen_items .right ul li a img {
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    padding: 10px 12px 0px 12px;
+    margin: 0px auto;
+    display: block;
+}
+
+.kitchen .kitchen_items .right ul li a h5 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333333;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+.kitchen .kitchen_items .right ul li a p {
+    color: #AF2F22;
+    font-size: 22px;
+    margin-top: 10px;
+    line-height: 31px;
+    font-weight: 400;
+}
+
+.kitchen .kitchen_items .right ul li a p span {
+    font-size: 18px;
+    color: #AF2F22;
+}
+
+.topic .topic_items{
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    height: 610px;
+}
+
+.topic .topic_items ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topic .topic_items .view{
+    display: flex;
+}
+
+.topic .topic_items .heart{
+    display: flex;
+}
+
+.topic .topic_items .eye{
+    display: flex;
+}
+
+.topic .topic_items .text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.topic .topic_items span img{
+    height: 15px;
+    width: 15px;
+}
+
+/* .topic .topic_items ul li a .pic_1{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(180deg,rgba(137,137,137,0.00),rgba(0,0,0,90) 100%);
+    height: 90px;
+    width: 100px;
+} */
+
+.topic .topic_items ul li .pic_1{
+    background-image: url(../img/uploads/topic1.png);
+    height: 288px;
+    width: 405px;
+}
+
+.topic .topic_items ul li .pic_2{
+    background-image: url(../img/uploads/topic2.png);
+    height: 288px;
+    width: 405px;
+}
+
+.topic .topic_items ul li .pic_3{
+    background-image: url(../img/uploads/topic3.png);
+    height: 288px;
+    width: 405px;
+}
